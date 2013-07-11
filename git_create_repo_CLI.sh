@@ -62,7 +62,7 @@ elif [ ${#curl_response[@]} -eq 176 ]; then
         git branch -a 
         echo
 	echo "clone_url : $clone_url"
-    echo "git_url : $git_url"
+	echo "git_url : $git_url"
 	echo
     fi
 else
