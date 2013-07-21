@@ -7,3 +7,13 @@
 
 #####```$sh git_create_repo_CLI.sh example_user example_repo ```
 
+
+
+Note:
+
+If there is an error
+######```git_create_repo_CLI.sh: 13: git_create_repo_CLI.sh: Syntax error: "(" unexpected```
+
+To fix the issue use "bash" instead of using "sh" while executing the script, that should not throw any syntax error.
+
+#####```$bash git_create_repo_CLI.sh example_user example_repo ```
